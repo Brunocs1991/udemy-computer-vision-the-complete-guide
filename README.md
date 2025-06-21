@@ -32,20 +32,20 @@ No terminal, dentro da pasta do projeto, execute:
 python -m venv .venv
 ```
 
-### 2. Ative o ambiente virtual
-#### Windows 
-```
-.venv\Scripts\activate
+### 2. Ative o ambiente virtual  
+#### Windows  
+```sh
+poetry shell
 ```
 
 #### Linux/macOS: 
 ```
-source .venv/bin/activate
+poetry shell
 ```
 
 ### 3. Instale as dependências
 ```bash
-pip install -r requirements.txt
+poetry install
 ```
 ---
 ## 🧪 Como executar os arquivos como notebooks
